@@ -1,13 +1,16 @@
 import _ from 'lodash';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './reactApp.js';
+import Navigation from './navigation.js';
+import "./index.css";
 
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    return element;
-  }
+function welcome() {
+  const element = document.createElement('h1');
+  element.innerHTML = _.join(['Welcome webpack', "and", "React"], ' ');
 
-  ReactDOM.render(<App />, document.getElementById('app'));
-  document.body.appendChild(component());
+  return element;
+}
+
+  
+  ReactDOM.render(<Navigation />, document.getElementById('app'));
+  document.body.appendChild(welcome());

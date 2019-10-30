@@ -1,0 +1,69 @@
+.colors div{
+    height: auto;
+    width: 100%;
+    padding: 16px;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.colors div idv{
+    display: flex;
+}
+
+.colors label,
+.colors span{
+    display: inline-flex;
+}
+.colors label{
+    float: left;
+}
+
+.colors span{
+    float: right;
+}
+
+.blue-grey{
+    background-color: #607D8B;
+}
+
+.blue-grey.white{
+    color: #FFFFFF;
+}
+
+.blue-grey.lighten-5{
+    background-color: #ECEFF1;
+}
+
+.blue-grey.lighten-4{
+    background-color: #CFD8DC;
+}
+
+.blue-grey.lighten-3{
+    background-color: #B0BEC5;
+}
+
+.blue-grey.lighten-2{
+    background-color: #90A4AE;
+}
+
+.blue-grey.lighten-1{
+    background-color: #78909C;
+}
+
+.blue-grey.darken-4{
+    background-color: #263238; 
+}
+
+.blue-grey.darken-3{
+    background-color: #37474F; 
+}
+
+.blue-grey.darken-2{
+    background-color: #455A64; 
+}
+
+.blue-grey.darken-1{
+    background-color: #546E7A; 
+}
