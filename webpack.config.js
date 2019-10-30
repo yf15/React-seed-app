@@ -10,8 +10,8 @@ module.exports = {
    devServer: {
       contentBase: path.join(__dirname, 'dist'),
       compress: true,
-      port: 9000,
-      open: true
+      port: 9000
+      //open: true, [use "Google Chrome" for mac, "Chrome" for windows]
    },
    module: {
       rules: [
