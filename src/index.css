@@ -28,6 +28,14 @@ body {
     display: inline-block;
   }
 
+  ul.header li a .svg-inline--fa{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
   .content {
     display: flex;
     padding: 20px;
