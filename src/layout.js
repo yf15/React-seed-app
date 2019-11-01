@@ -11,18 +11,41 @@ import {
 } from "react-router-dom";
 
 class Layout extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {isToggleOn: false};
+        this.toggleForSideNav = this.toggleForSideNav.bind(this);
+    }
+
+    toggleForSideNav(){
+        const currentState = this.state.isToggleOn;
+        this.setState({isToggleOn: !currentState});
+        // equal to function below:
+        // this.setState(prevState=> ({
+        //     isToggleOn: !prevState.isToggleOn
+        // }));
+    }
+
+
     render() {
         return (
+            //learned from
+            //https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
             <HashRouter>
                 <div>
                     <ul className="header">
                         <li>
-                           <a>
+                           <a 
+                            id="toggle-nav" 
+                            onClick={this.toggleForSideNav}
+                            className = {this.state.isToggleOn ? "rotate" : null}
+                           >
                                <FontAwesomeIcon icon="bars" />
                            </a>
                         </li>
                         <li>
-                            <NavLink to="/home">
+                            <NavLink exact to="/">
                                 <FontAwesomeIcon icon="home" />
                                 Home
                             </NavLink>
@@ -47,7 +70,7 @@ class Layout extends Component {
                         </li>
                     </ul>
                     <div className="content">
-                        <Route path="/home" component={Home} />
+                        <Route exact path="/" component={Home} />
                         <Route path="/contact" component={Contact} />
                         <Route path="/components/colors/colors" component={Colors} />
                         <Route path="/components/icons/icons" component={Icons} />

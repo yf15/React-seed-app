@@ -5,10 +5,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  h1, h2, p, ul, li {
-    font-family: sans-serif;
-  }
-
   ul.header li {
     display: inline;
     list-style-type: none;
@@ -27,6 +23,29 @@ body {
     text-decoration: none;
     padding: 20px;
     display: inline-block;
+  }
+
+  ul.header li a.active {
+    background-color: #007CC0;
+  }
+
+  #toggle-nav{
+    cursor: pointer;
+  }
+  
+  #toggle-nav.rotate{
+    background-color: #E0E0E0;
+    color:#DA521F;
+  }
+  
+  #toggle-nav:hover{
+    background-color: #EEEFEF;
+    color:#044862;
+  }
+
+  #toggle-nav.rotate .fa-bars{
+    transform: rotate(90deg) scaleX(-1);
+    transition: transform .5s ease-in-out;
   }
 
   ul.header li a .svg-inline--fa{

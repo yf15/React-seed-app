@@ -1,4 +1,5 @@
 .colors .col{
+    display: inline-flex;
     padding: 0;
     box-sizing: border-box;
     flex-direction: column;
@@ -9,10 +10,6 @@
 
 .col div{
     padding: 16px;
-}
-
-.colors div idv{
-    display: flex;
 }
 
 .colors label,
