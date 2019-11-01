@@ -22,32 +22,32 @@ class Layout extends Component {
               </a>
             </li>
             <li>
-              <NavLink to="/home">
+              <NavLink exact to="/">
                 <FontAwesomeIcon icon="home" />
                 Home
-                            </NavLink>
+              </NavLink>
             </li>
             <li>
               <NavLink to="/contact">
                 <FontAwesomeIcon icon="coffee" />
                 Contact
-                            </NavLink>
+              </NavLink>
             </li>
             <li>
               <NavLink to="/components/colors/colors">
                 <FontAwesomeIcon icon={['fab', 'apple']} />
                 Colors
-                            </NavLink>
+              </NavLink>
             </li>
             <li>
               <NavLink to="/components/icons/icons">
                 <FontAwesomeIcon icon={['fab', 'microsoft']} />
                 Icons
-                            </NavLink>
+              </NavLink>
             </li>
           </ul>
           <div className="content">
-            <Route path="/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/contact" component={Contact} />
             <Route path="/components/colors/colors" component={Colors} />
             <Route path="/components/icons/icons" component={Icons} />

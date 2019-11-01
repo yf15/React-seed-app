@@ -39,6 +39,10 @@ class Colors extends Component {
           {cyanListItems}
         </div>
 
+        <div className="col s12 m6 l3">
+          {blueListItems}
+        </div>
+
       </div>
     );
   }
@@ -60,5 +64,6 @@ const orangeListItems = generateListItems(Lists.orangeList, "orange");
 const yellowListItems = generateListItems(Lists.yellowList, "yellow");
 const greenListItems = generateListItems(Lists.greenList, "green");
 const cyanListItems = generateListItems(Lists.cyanList, "cyan");
+const blueListItems = generateListItems(Lists.blueList, "blue");
 
 export default Colors;
