@@ -14,6 +14,6 @@ import "./index.css";
 // }
 
 
-  ReactDOM.render(<Layout />, document.getElementById('app'));
+ReactDOM.render(<Layout />, document.getElementById('app'));
   // document.body.appendChild(welcome());
 

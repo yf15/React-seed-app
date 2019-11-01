@@ -10,7 +10,7 @@ class Home extends Component {
 
     return (
       <div>
-         <CurrentUser user={user} />
+        <CurrentUser user={user} />
       </div>
     );
   }
@@ -53,7 +53,7 @@ class CurrentUser extends Component {
     return (
       <div>
         <h1>
-          Hi {user.firstName} {user.lastName}, your super power is {user.superPower}! 
+          Hi {user.firstName} {user.lastName}, your super power is {user.superPower}!
         </h1>
 
         <h1>
@@ -76,7 +76,7 @@ const endMounting = () => {
 
 const FormattedDate = (props) => {
   console.log(props);
-   return <h2>It is {props.date.toLocaleTimeString()}.</h2>;
+  return <h2>It is {props.date.toLocaleTimeString()}.</h2>;
 }
 
 export default Home;
