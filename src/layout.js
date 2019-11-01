@@ -17,9 +17,9 @@ class Layout extends Component {
                 <div>
                     <ul className="header">
                         <li>
-                           <a>
+                            <a>
                                <FontAwesomeIcon icon="bars" />
-                           </a>
+                            </a>
                         </li>
                         <li>
                             <NavLink to="/home">

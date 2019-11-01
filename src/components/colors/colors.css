@@ -143,5 +143,38 @@
 }
 
 
-
-
+.deep-orange[colornumber="000"]{
+    background-color: #FBE9E7;
+}
+.deep-orange[colornumber="100"]{
+    background-color: #FFCCBC;
+}
+.deep-orange[colornumber="200"]{
+    background-color: #FFAB91;
+}
+.deep-orange[colornumber="300"]{
+    background-color: #FF8A65;
+}
+.deep-orange[colornumber="400"]{
+    background-color: #FF7043;
+}
+.deep-orange[colornumber="500"]{
+    background-color: #FF5722;
+    color: #FFFFFF
+}
+.deep-orange[colornumber="600"]{
+    background-color: #F4511E; 
+    color: #FFFFFF
+}
+.deep-orange[colornumber="700"]{
+    background-color: #E64A19; 
+    color: #FFFFFF
+}
+.deep-orange[colornumber="800"]{
+    background-color: #D84315; 
+    color: #FFFFFF
+}
+.deep-orange[colornumber="900"]{
+    background-color: #BF360C; 
+    color: #FFFFFF
+}
