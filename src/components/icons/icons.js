@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faCoffee, faBars, faSmile } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { dom } from '@fortawesome/fontawesome-svg-core'
 
 dom.watch()
-library.add(fab, faHome, faCoffee)
+library.add(fab, faHome, faCoffee, faBars, faSmile)
 
 class Icons extends Component {
     render() {
@@ -22,7 +22,7 @@ class Icons extends Component {
                     </label>
                     </div>
                     <div>
-                        <i class="fas fa-coffee"></i>
+                        <i class="fa fa-coffee"></i>
                         <label>
                             coffee
                     </label>

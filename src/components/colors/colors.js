@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./colors.css";
 
 class Colors extends Component {
+  
   render() {
     return (
       <div className="row colors">
@@ -10,57 +11,16 @@ class Colors extends Component {
         </div>
 
         <div className="col s12 m6 l3">
-          {blueGrayListItems}
+          {grayListItems}
+        </div>
+
+        <div className="col s12 m6 l3">
+          {brownListItems}
         </div>
 
         <div className="col s12 m6 l3">
           {blueGrayListItems}
         </div>
-
-
-        <div className="col s12 m6 l3">
-          <div className="blue-grey" colornumber="000">
-            <label>#ECEFF1</label>
-            <span> blue-grey-000 </span>
-          </div>
-          <div className="blue-grey" colornumber="100">
-            <label>#CFD8DC</label>
-            <span> blue-grey-100 </span>
-          </div>
-          <div className="blue-grey" colornumber="200">
-            <label>#B0BEC5</label>
-            <span> blue-grey-200 </span>
-          </div>
-          <div className="blue-grey" colornumber="300">
-            <label>#90A4AE</label>
-            <span> blue-grey-300 </span>
-          </div>
-          <div className="blue-grey" colornumber="400">
-            <label>#78909C</label>
-            <span> blue-grey-400 </span>
-          </div>
-          <div className="blue-grey" colornumber="500">
-            <label>#607D8B</label>
-            <span> blue-grey-500 </span>
-          </div>
-          <div className="blue-grey" colornumber="600">
-            <label>#546E7A</label>
-            <span> blue-grey-600 </span>
-          </div>
-          <div className="blue-grey" colornumber="700">
-            <label>#455A64</label>
-            <span> blue-grey-700 </span>
-          </div>
-          <div className="blue-grey" colornumber="800">
-            <label>#37474F</label>
-            <span> blue-grey-800 </span>
-          </div>
-          <div className="blue-grey" colornumber="900">
-            <label>#263238</label>
-            <span> blue-grey-900 </span>
-          </div>
-        </div>
-
 
       </div>
     );
@@ -100,11 +60,100 @@ const blueGrayList = [{
   "description": "900"
 }];
 
-const blueGrayListItems = blueGrayList.map((blueGrayList, index) =>
-<div className="blue-grey" key={index} colorNumber={blueGrayList.description}>
+
+const blueGrayListItems = blueGrayList.map(
+  (blueGrayList, index) => 
+  <div className="blue-grey" key={index} colornumber={blueGrayList.description}>
   <label>#{blueGrayList.color}</label>
   <span> blue-grey-{blueGrayList.description} </span>
 </div>
 );
+
+
+
+const greyList = [{
+  "color":"FAFAFA",
+  "description": "000"
+},{
+  "color":"F5F5F5",
+  "description": "100"
+},{
+  "color":"EEEEEE",
+  "description": "200"
+},{
+  "color":"E0E0E0",
+  "description": "300"
+},{
+  "color":"BDBDBD",
+  "description": "400"
+},{
+  "color":"9E9E9E",
+  "description": "500"
+},{
+  "color":"757575",
+  "description": "600"
+},{
+  "color":"616161",
+  "description": "700"
+},{
+  "color":"424242",
+  "description": "800"
+},{
+  "color":"212121",
+  "description": "900"
+}];
+
+const grayListItems = greyList.map(
+  (greyList, index) => 
+  <div className="grey" key={index} colornumber={greyList.description}>
+  <label>#{greyList.color}</label>
+  <span> grey-{greyList.description} </span>
+</div>
+);
+
+
+
+
+const brownList = [{
+  "color":"EFEBE9",
+  "description": "000"
+},{
+  "color":"D7CCC8",
+  "description": "100"
+},{
+  "color":"BCAAA4",
+  "description": "200"
+},{
+  "color":"A1887F",
+  "description": "300"
+},{
+  "color":"8D6E63",
+  "description": "400"
+},{
+  "color":"795548",
+  "description": "500"
+},{
+  "color":"6D4C41",
+  "description": "600"
+},{
+  "color":"5D4037",
+  "description": "700"
+},{
+  "color":"4E342E",
+  "description": "800"
+},{
+  "color":"3E2723",
+  "description": "900"
+}];
+
+const brownListItems = brownList.map(
+  (brownList, index) => 
+  <div className="brown" key={index} colornumber={brownList.description}>
+  <label>#{brownList.color}</label>
+  <span> grey-{brownList.description} </span>
+</div>
+);
+
+
 
 export default Colors;

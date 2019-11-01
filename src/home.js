@@ -53,7 +53,11 @@ class CurrentUser extends Component {
     return (
       <div>
         <h1>
-          Hi {user.firstName} {user.lastName}, your super power is {user.superPower}
+          Hi {user.firstName} {user.lastName}, your super power is {user.superPower}! 
+        </h1>
+
+        <h1>
+          YOU ARE ALWAYS THE BEST!!!
         </h1>
 
         <FormattedDate date={this.state.date} />
