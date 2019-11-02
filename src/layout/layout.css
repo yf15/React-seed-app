@@ -1,3 +1,7 @@
+#main-layout{
+  height: 100%;
+}
+
 .head-nav{
     position: fixed;
     top: 0;
@@ -13,31 +17,22 @@
     z-index: 1;
   }
 
-  .head-nav.side-active{
-    width: calc(100% - 240px);
-    left: 240px;
-    transition: left .5s ease-out, width .5s ease-out;
-  }
-
   .head-nav.head-inactive{
     top: -58px;
   }
   
   .head-nav ul{
     display: block;
-    padding: 0 12px;
     margin: 4px 0;
+    padding-right: 12px;
     list-style: none;
   }
 
   .head-nav li{
     display: inline-flex;
+    padding-left: 12px;
     list-style-type: none;
     margin: 0;
-  }
-
-  .head-nav li:not(:first-child) {
-    float: right;
   }
 
   .head-nav li a {
@@ -108,7 +103,7 @@
       left: -240px;
       height: 100%;
       display: flex;
-      padding: 0;
+      padding-top: 58px;
       background: #FFFFFF;
       border-right: 1px solid rgba(0, 0, 0, 0.12);
       box-sizing: border-box;
@@ -120,6 +115,8 @@
 
   .side-nav ul{
     width: 100%;
+    padding-top: 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
     list-style: none;
   }
 
@@ -134,16 +131,22 @@
     display: flex;
     color: rgba(0, 0, 0, 0.87);
     font-size: 16px;
+    font-weight: 500;
     line-height: 19px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     text-decoration: none;
   }
 
-  .svg-inline--fa{
+  .side-nav li a.active{
+    color: #1976d2;
+    font-weight: 500;
+  }
+
+  .side-nav li a .svg-inline--fa{
     width: 16px;
     height: 16px;
     margin-top: 1px;
-    margin-right: 8px;
+    margin-right: 12px;
   }
 
 .side-nav.side-active{
@@ -212,6 +215,9 @@
       margin: 0;
   }
 
+  .float-right{
+    float: right;
+  }
 
   @media only screen and (min-width: 601px){
     .row .col.m6 {

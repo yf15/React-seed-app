@@ -1,0 +1,11 @@
+.main-content .main-table{
+    max-height:calc(100% - 58px);
+}
+
+.main-table h1{
+    padding-left: 16px;
+}
+
+.main-table h1 .svg-inline--fa{
+    margin-right: 12px;
+}

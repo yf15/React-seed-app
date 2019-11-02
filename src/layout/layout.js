@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Home from "./home";
 import Contact from "../contact/contact";
-import SideNav from "./sideNav"
 import "./layout.css";
 import Colors from "../components/colors/colors";
 import Icons from '../components/icons/icons';
+import Tables from '../components/tables/tables';
+
 import {
   Route,
   NavLink,
@@ -69,7 +70,7 @@ class Layout extends Component {
     return (
       //learned from
       //https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
-      <div>
+      <div id="main-layout">
         <HashRouter>
 
           <div className={"side-nav " + this.state.sideActive}>
@@ -86,10 +87,16 @@ class Layout extends Component {
                   Icons
               </NavLink>
               </li>
+              <li>
+                <NavLink to="/components/tables/index" className="MuiButton-label">
+                <FontAwesomeIcon icon="table" />
+                  Tables
+              </NavLink>
+              </li>
             </ul>
           </div>
 
-          <div className={"head-nav " + this.state.sideActive + " " + this.state.headVisible}>
+          <div className={"head-nav " + this.state.headVisible}>
             <ul>
               <li>
                 <a
@@ -101,15 +108,15 @@ class Layout extends Component {
                 </a>
               </li>
               <li>
+                <NavLink exact to="/">
+                  <FontAwesomeIcon icon="home" />
+                  Turbo's APP
+              </NavLink>
+              </li>
+              <li className="float-right">
                 <NavLink to="/contact/contact">
                   <FontAwesomeIcon icon="coffee" />
                   Contact
-              </NavLink>
-              </li>
-              <li>
-                <NavLink exact to="/">
-                  <FontAwesomeIcon icon="home" />
-                  Home
               </NavLink>
               </li>
             </ul>
@@ -118,8 +125,11 @@ class Layout extends Component {
           <div className={"main-content " + this.state.sideActive}>
             <Route exact path="/" component={Home} />
             <Route path="/contact/contact" component={Contact} />
+
             <Route path="/components/colors/colors" component={Colors} />
             <Route path="/components/icons/icons" component={Icons} />
+            <Route path="/components/tables/index" component={Tables} />
+
           </div>
         </HashRouter>
 

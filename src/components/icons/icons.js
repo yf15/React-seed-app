@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faCoffee, faBars, faSmile } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faCoffee, faBars, faSmile, faTable } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { dom } from '@fortawesome/fontawesome-svg-core'
 
 dom.watch()
-library.add(fab, faHome, faCoffee, faBars, faSmile)
+library.add(fab, faHome, faCoffee, faBars, faSmile, faTable)
 
 class Icons extends Component {
   render() {
