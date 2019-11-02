@@ -43,7 +43,7 @@ class Layout extends Component {
 
     this.setState({
       prevScrollpos: currentScrollPos,
-      headVisible: prevScrollpos > currentScrollPos ? "":"head-inactive"
+      headVisible: prevScrollpos > currentScrollPos ? "" : "head-inactive"
     });
   };
 
@@ -72,7 +72,22 @@ class Layout extends Component {
       <div>
         <HashRouter>
 
-          <SideNav active={this.state.sideActive} />
+          <div className={"side-nav " + this.state.sideActive}>
+            <ul>
+            <li>
+                <NavLink to="/components/colors/colors" className="MuiButton-label">
+                  <FontAwesomeIcon icon={['fab', 'apple']} />
+                  Colors
+              </NavLink>
+              </li>
+              <li>
+                <NavLink to="/components/icons/icons" className="MuiButton-label">
+                  <FontAwesomeIcon icon={['fab', 'microsoft']} />
+                  Icons
+              </NavLink>
+              </li>
+            </ul>
+          </div>
 
           <div className={"head-nav " + this.state.sideActive + " " + this.state.headVisible}>
             <ul>
@@ -86,27 +101,15 @@ class Layout extends Component {
                 </a>
               </li>
               <li>
-                <NavLink exact to="/">
-                  <FontAwesomeIcon icon="home" />
-                  Home
-              </NavLink>
-              </li>
-              <li>
                 <NavLink to="/contact/contact">
                   <FontAwesomeIcon icon="coffee" />
                   Contact
               </NavLink>
               </li>
               <li>
-                <NavLink to="/components/colors/colors">
-                  <FontAwesomeIcon icon={['fab', 'apple']} />
-                  Colors
-              </NavLink>
-              </li>
-              <li>
-                <NavLink to="/components/icons/icons">
-                  <FontAwesomeIcon icon={['fab', 'microsoft']} />
-                  Icons
+                <NavLink exact to="/">
+                  <FontAwesomeIcon icon="home" />
+                  Home
               </NavLink>
               </li>
             </ul>
@@ -117,7 +120,6 @@ class Layout extends Component {
             <Route path="/contact/contact" component={Contact} />
             <Route path="/components/colors/colors" component={Colors} />
             <Route path="/components/icons/icons" component={Icons} />
-
           </div>
         </HashRouter>
 

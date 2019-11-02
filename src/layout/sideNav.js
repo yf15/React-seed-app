@@ -24,7 +24,7 @@ class SideNav extends Component {
         return (
             <div className={"side-nav " + this.props.active}>
                 <ul>
-                    <li><a>Colors</a></li>
+                    <li><a href="./#/components/colors/colors">Colors</a></li>
                     <li><a>Icons</a></li>
                     <li><a>Tables</a></li>
                 </ul>
