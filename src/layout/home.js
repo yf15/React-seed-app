@@ -45,8 +45,8 @@ class CurrentUser extends Component {
   render() {
     const user = this.props.user;
     const test = () => {
-      console.log("renderred the component");
-      console.log("Each tick will rerenders the component");
+      // console.log("renderred the component");
+      // console.log("Each tick will rerenders the component");
     }
 
     // test();
@@ -56,26 +56,26 @@ class CurrentUser extends Component {
           Hi {user.firstName} {user.lastName}, your super power is {user.superPower}!
         </h1>
 
-        <h1>
-          YOU ARE ALWAYS THE BEST!!!
-        </h1>
+        <h1>React Version: {React.version}</h1>
 
         <FormattedDate date={this.state.date} />
+
+        {/* <div>test</div> */}
       </div>
     );
   }
 }
 
 const startMounting = () => {
-  console.log("start mounting");
+  // console.log("start mounting");
 }
 
 const endMounting = () => {
-  console.log("end mounting");
+  // console.log("end mounting");
 }
 
 const FormattedDate = (props) => {
-  console.log(props);
+  // console.log(props);
   return <h2>It is {props.date.toLocaleTimeString()}.</h2>;
 }
 

@@ -376,5 +376,47 @@
       "color": "0D47A1",
       "description": "900"
     }
+  ],
+  "darkBlueList": [
+    {
+      "color": "E1E9EC",
+      "description": "000"
+    },
+    {
+      "color": "B4C8D0",
+      "description": "100"
+    },
+    {
+      "color": "82A4B1",
+      "description": "200"
+    },
+    {
+      "color": "4F7F91",
+      "description": "300"
+    },
+    {
+      "color": "2A637A",
+      "description": "400"
+    },
+    {
+      "color": "044862",
+      "description": "500"
+    },
+    {
+      "color": "03415A",
+      "description": "600"
+    },
+    {
+      "color": "033850",
+      "description": "700"
+    },
+    {
+      "color": "023046",
+      "description": "800"
+    },
+    {
+      "color": "012134",
+      "description": "900"
+    }
   ]
 }

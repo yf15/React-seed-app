@@ -15,44 +15,32 @@ class Icons extends Component {
         <div className="col s12 m6 l3">
           <div>
             <span>
-              <i class="fa fa-home"></i>
+              <i className="fa fa-home"></i>
             </span>
-            <label>
-              home
-                    </label>
+            <label>home</label>
           </div>
           <div>
-            <i class="fa fa-coffee"></i>
-            <label>
-              coffee
-                    </label>
+            <i className="fa fa-coffee"></i>
+            <label>coffee</label>
           </div>
         </div>
 
         <div className="col s12 m6 l3">
           <div>
             <FontAwesomeIcon icon={['fab', 'apple']} fixedWidth />
-            <label>
-              apple
-                        </label>
+            <label>apple</label>
           </div>
           <div>
             <FontAwesomeIcon icon={['fab', 'microsoft']} fixedWidth />
-            <label>
-              microsoft
-                        </label>
+            <label>microsoft</label>
           </div>
           <div>
             <FontAwesomeIcon icon={['fab', 'google']} fixedWidth />
-            <label>
-              google
-                    </label>
+            <label>google</label>
           </div>
           <div>
             <FontAwesomeIcon icon={['fab', 'google']} fixedWidth />
-            <label>
-              google
-                    </label>
+            <label>google</label>
           </div>
         </div>
       </div>

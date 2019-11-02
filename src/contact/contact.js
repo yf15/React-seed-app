@@ -5,7 +5,8 @@ class Contact extends Component {
     return (
       <div>
         <h1>
-          Take whatever you want
+          Take whatever you want  
+          <i className="material-icons">face</i>
         </h1>
       </div>
     );

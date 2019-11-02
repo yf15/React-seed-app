@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Layout from './layout.js';
+import Layout from '../layout/layout';
 import "./index.css";
 
 

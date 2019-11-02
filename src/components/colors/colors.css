@@ -23,115 +23,221 @@
 }
 
 
-.blue-grey[colornumber="000"]{
-  background-color: #ECEFF1;
+
+.green[colornumber="000"]{
+  background-color: #E8F5E9;
 }
-.blue-grey[colornumber="100"]{
-  background-color: #CFD8DC;
+.green[colornumber="100"]{
+  background-color: #C8E6C9;
 }
-.blue-grey[colornumber="200"]{
-  background-color: #B0BEC5;
+.green[colornumber="200"]{
+  background-color: #A5D6A7;
 }
-.blue-grey[colornumber="300"]{
-  background-color: #90A4AE;
+.green[colornumber="300"]{
+  background-color: #81C784;
 }
-.blue-grey[colornumber="400"]{
-  background-color: #78909C;
+.green[colornumber="400"]{
+  background-color: #66BB6A;
+}
+.green[colornumber="500"]{
+  background-color: #4CAF50;
+}
+.green[colornumber="600"]{
+  background-color: #43A047;
+}
+.green[colornumber="700"]{
+  background-color: #388E3C;
   color: #FFFFFF;
 }
-.blue-grey[colornumber="500"]{
-  background-color: #607D8B;
+.green[colornumber="800"]{
+  background-color: #2E7D32;
   color: #FFFFFF;
 }
-.blue-grey[colornumber="600"]{
-  background-color: #546E7A;
-  color: #FFFFFF;
-}
-.blue-grey[colornumber="700"]{
-  background-color: #455A64;
-  color: #FFFFFF;
-}
-.blue-grey[colornumber="800"]{
-  background-color: #37474F;
-  color: #FFFFFF;
-}
-.blue-grey[colornumber="900"]{
-  background-color: #263238;
+.green[colornumber="900"]{
+  background-color: #1B5E20;
   color: #FFFFFF;
 }
 
 
-.grey[colornumber="000"]{
-  background-color: #FAFAFA;
+.cyan[colornumber="000"]{
+  background-color: #E0F7FA;
 }
-.grey[colornumber="100"]{
-  background-color: #F5F5F5;
+.cyan[colornumber="100"]{
+  background-color: #B2EBF2;
 }
-.grey[colornumber="200"]{
-  background-color: #EEEEEE;
+.cyan[colornumber="200"]{
+  background-color: #80DEEA;
 }
-.grey[colornumber="300"]{
-  background-color: #E0E0E0;
+.cyan[colornumber="300"]{
+  background-color: #4DD0E1;
 }
-.grey[colornumber="400"]{
-  background-color: #BDBDBD;
+.cyan[colornumber="400"]{
+  background-color: #26C6DA;
 }
-.grey[colornumber="500"]{
-  background-color: #9E9E9E;
+.cyan[colornumber="500"]{
+  background-color: #00BCD4;
 }
-.grey[colornumber="600"]{
-  background-color: #757575;
+.cyan[colornumber="600"]{
+  background-color: #00ACC1;
   color: #FFFFFF;
 }
-.grey[colornumber="700"]{
-  background-color: #616161;
+.cyan[colornumber="700"]{
+  background-color: #0097A7;
   color: #FFFFFF;
 }
-.grey[colornumber="800"]{
-  background-color: #424242;
+.cyan[colornumber="800"]{
+  background-color: #00838F;
   color: #FFFFFF;
 }
-.grey[colornumber="900"]{
-  background-color: #212121;
+.cyan[colornumber="900"]{
+  background-color: #006064;
   color: #FFFFFF;
 }
 
 
-.brown[colornumber="000"]{
-  background-color: #EFEBE9;
+.blue[colornumber="000"]{
+  background-color: #E3F2FD;
 }
-.brown[colornumber="100"]{
-  background-color: #D7CCC8;
+.blue[colornumber="100"]{
+  background-color: #BBDEFB;
 }
-.brown[colornumber="200"]{
-  background-color: #BCAAA4;
+.blue[colornumber="200"]{
+  background-color: #90CAF9;
 }
-.brown[colornumber="300"]{
-  background-color: #A1887F;
+.blue[colornumber="300"]{
+  background-color: #64B5F6;
+}
+.blue[colornumber="400"]{
+  background-color: #42A5F5;
+}
+.blue[colornumber="500"]{
+  background-color: #2196F3;
   color: #FFFFFF;
 }
-.brown[colornumber="400"]{
-  background-color: #8D6E63;
+.blue[colornumber="600"]{
+  background-color: #1E88E5;
   color: #FFFFFF;
 }
-.brown[colornumber="500"]{
-  background-color: #795548;
+.blue[colornumber="700"]{
+  background-color: #1976D2;
   color: #FFFFFF;
 }
-.brown[colornumber="600"]{
-  background-color: #6D4C41;
+.blue[colornumber="800"]{
+  background-color: #1565C0;
   color: #FFFFFF;
 }
-.brown[colornumber="700"]{
-  background-color: #5D4037;
+.blue[colornumber="900"]{
+  background-color: #0D47A1;
   color: #FFFFFF;
 }
-.brown[colornumber="800"]{
-  background-color: #4E342E;
+
+
+
+.dark-blue[colornumber="000"]{
+  background-color:#E1E9EC;
+}
+.dark-blue[colornumber="100"]{
+  background-color:#B4C8D0;
+}
+.dark-blue[colornumber="200"]{
+  background-color:#82A4B1;
+}
+.dark-blue[colornumber="300"]{
+  background-color:#4F7F91;
+}
+.dark-blue[colornumber="400"]{
+  background-color:#2A637A;
   color: #FFFFFF;
 }
-.brown[colornumber="900"]{
-  background-color: #3E2723;
+.dark-blue[colornumber="500"]{
+  background-color:#044862;
+  color: #FFFFFF;
+}
+.dark-blue[colornumber="600"]{
+  background-color:#03415A;
+  color: #FFFFFF;
+}
+.dark-blue[colornumber="700"]{
+  background-color:#033850;
+  color: #FFFFFF;
+}
+.dark-blue[colornumber="800"]{
+  background-color:#023046;
+  color: #FFFFFF;
+}
+.dark-blue[colornumber="900"]{
+  background-color:#012134;
+  color: #FFFFFF;
+}
+
+
+
+
+.yellow[colornumber="000"]{
+  background-color: #FFFDE7;
+}
+.yellow[colornumber="100"]{
+  background-color: #FFF9C4;
+}
+.yellow[colornumber="200"]{
+  background-color: #FFF59D;
+}
+.yellow[colornumber="300"]{
+  background-color: #FFF176;
+}
+.yellow[colornumber="400"]{
+  background-color: #FFEE58;
+}
+.yellow[colornumber="500"]{
+  background-color: #FFEB3B;
+}
+.yellow[colornumber="600"]{
+  background-color: #FDD835;
+}
+.yellow[colornumber="700"]{
+  background-color: #FBC02D;
+}
+.yellow[colornumber="800"]{
+  background-color: #F9A825;
+  color: #FFFFFF;
+}
+.yellow[colornumber="900"]{
+  background-color: #F57F17;
+  color: #FFFFFF;
+}
+
+
+.orange[colornumber="000"]{
+  background-color: #FFF3E0;
+}
+.orange[colornumber="100"]{
+  background-color: #FFE0B2;
+}
+.orange[colornumber="200"]{
+  background-color: #FFCC80;
+}
+.orange[colornumber="300"]{
+  background-color: #FFB74D;
+}
+.orange[colornumber="400"]{
+  background-color: #FFA726;
+}
+.orange[colornumber="500"]{
+  background-color: #FF9800;
+}
+.orange[colornumber="600"]{
+  background-color: #FB8C00;
+}
+.orange[colornumber="700"]{
+  background-color: #F57C00;
+  color: #FFFFFF;
+}
+.orange[colornumber="800"]{
+  background-color: #EF6C00;
+  color: #FFFFFF;
+}
+.orange[colornumber="900"]{
+  background-color: #E65100;
   color: #FFFFFF;
 }
 
@@ -171,173 +277,116 @@
   color: #FFFFFF;
 }
 
-.orange[colornumber="000"]{
-  background-color: #FFF3E0;
+
+.brown[colornumber="000"]{
+  background-color: #EFEBE9;
 }
-.orange[colornumber="100"]{
-  background-color: #FFE0B2;
+.brown[colornumber="100"]{
+  background-color: #D7CCC8;
 }
-.orange[colornumber="200"]{
-  background-color: #FFCC80;
+.brown[colornumber="200"]{
+  background-color: #BCAAA4;
 }
-.orange[colornumber="300"]{
-  background-color: #FFB74D;
+.brown[colornumber="300"]{
+  background-color: #A1887F;
 }
-.orange[colornumber="400"]{
-  background-color: #FFA726;
+.brown[colornumber="400"]{
+  background-color: #8D6E63;
 }
-.orange[colornumber="500"]{
-  background-color: #FF9800;
+.brown[colornumber="500"]{
+  background-color: #795548;
+  color: #FFFFFF;
 }
-.orange[colornumber="600"]{
-  background-color: #FB8C00;
+.brown[colornumber="600"]{
+  background-color: #6D4C41;
+  color: #FFFFFF;
 }
-.orange[colornumber="700"]{
-  background-color: #F57C00;
+.brown[colornumber="700"]{
+  background-color: #5D4037;
+  color: #FFFFFF;
 }
-.orange[colornumber="800"]{
-  background-color: #EF6C00;
+.brown[colornumber="800"]{
+  background-color: #4E342E;
+  color: #FFFFFF;
 }
-.orange[colornumber="900"]{
-  background-color: #E65100;
+.brown[colornumber="900"]{
+  background-color: #3E2723;
   color: #FFFFFF;
 }
 
 
-.yellow[colornumber="000"]{
-  background-color: #FFFDE7;
-}
-.yellow[colornumber="100"]{
-  background-color: #FFF9C4;
-}
-.yellow[colornumber="200"]{
-  background-color: #FFF59D;
-}
-.yellow[colornumber="300"]{
-  background-color: #FFF176;
-}
-.yellow[colornumber="400"]{
-  background-color: #FFEE58;
-}
-.yellow[colornumber="500"]{
-  background-color: #FFEB3B;
-}
-.yellow[colornumber="600"]{
-  background-color: #FDD835;
-}
-.yellow[colornumber="700"]{
-  background-color: #FBC02D;
-}
-.yellow[colornumber="800"]{
-  background-color: #F9A825;
-}
-.yellow[colornumber="900"]{
-  background-color: #F57F17;
-}
 
 
-.green[colornumber="000"]{
-  background-color: #E8F5E9;
+
+
+.grey[colornumber="000"]{
+  background-color: #FAFAFA;
 }
-.green[colornumber="100"]{
-  background-color: #C8E6C9;
+.grey[colornumber="100"]{
+  background-color: #F5F5F5;
 }
-.green[colornumber="200"]{
-  background-color: #A5D6A7;
+.grey[colornumber="200"]{
+  background-color: #EEEEEE;
 }
-.green[colornumber="300"]{
-  background-color: #81C784;
+.grey[colornumber="300"]{
+  background-color: #E0E0E0;
 }
-.green[colornumber="400"]{
-  background-color: #66BB6A;
+.grey[colornumber="400"]{
+  background-color: #BDBDBD;
 }
-.green[colornumber="500"]{
-  background-color: #4CAF50;
+.grey[colornumber="500"]{
+  background-color: #9E9E9E;
 }
-.green[colornumber="600"]{
-  background-color: #43A047;
+.grey[colornumber="600"]{
+  background-color: #757575;
   color: #FFFFFF;
 }
-.green[colornumber="700"]{
-  background-color: #388E3C;
+.grey[colornumber="700"]{
+  background-color: #616161;
   color: #FFFFFF;
 }
-.green[colornumber="800"]{
-  background-color: #2E7D32;
+.grey[colornumber="800"]{
+  background-color: #424242;
   color: #FFFFFF;
 }
-.green[colornumber="900"]{
-  background-color: #1B5E20;
+.grey[colornumber="900"]{
+  background-color: #212121;
   color: #FFFFFF;
 }
 
 
-.cyan[colornumber="000"]{
-  background-color: #E0F7FA;
+.blue-grey[colornumber="000"]{
+  background-color: #ECEFF1;
 }
-.cyan[colornumber="100"]{
-  background-color: #B2EBF2;
+.blue-grey[colornumber="100"]{
+  background-color: #CFD8DC;
 }
-.cyan[colornumber="200"]{
-  background-color: #80DEEA;
+.blue-grey[colornumber="200"]{
+  background-color: #B0BEC5;
 }
-.cyan[colornumber="300"]{
-  background-color: #4DD0E1;
+.blue-grey[colornumber="300"]{
+  background-color: #90A4AE;
 }
-.cyan[colornumber="400"]{
-  background-color: #26C6DA;
+.blue-grey[colornumber="400"]{
+  background-color: #78909C;
 }
-.cyan[colornumber="500"]{
-  background-color: #00BCD4;
-}
-.cyan[colornumber="600"]{
-  background-color: #00ACC1;
-}
-.cyan[colornumber="700"]{
-  background-color: #0097A7;
+.blue-grey[colornumber="500"]{
+  background-color: #607D8B;
   color: #FFFFFF;
 }
-.cyan[colornumber="800"]{
-  background-color: #00838F;
+.blue-grey[colornumber="600"]{
+  background-color: #546E7A;
   color: #FFFFFF;
 }
-.cyan[colornumber="900"]{
-  background-color: #006064;
+.blue-grey[colornumber="700"]{
+  background-color: #455A64;
   color: #FFFFFF;
 }
-
-
-.blue[colornumber="000"]{
-  background-color: #E3F2FD;
-}
-.blue[colornumber="100"]{
-  background-color: #BBDEFB;
-}
-.blue[colornumber="200"]{
-  background-color: #90CAF9;
-}
-.blue[colornumber="300"]{
-  background-color: #64B5F6;
-}
-.blue[colornumber="400"]{
-  background-color: #42A5F5;
-}
-.blue[colornumber="500"]{
-  background-color: #2196F3;
-}
-.blue[colornumber="600"]{
-  background-color: #1E88E5;
+.blue-grey[colornumber="800"]{
+  background-color: #37474F;
   color: #FFFFFF;
 }
-.blue[colornumber="700"]{
-  background-color: #1976D2;
-  color: #FFFFFF;
-}
-.blue[colornumber="800"]{
-  background-color: #1565C0;
-  color: #FFFFFF;
-}
-.blue[colornumber="900"]{
-  background-color: #0D47A1;
+.blue-grey[colornumber="900"]{
+  background-color: #263238;
   color: #FFFFFF;
 }

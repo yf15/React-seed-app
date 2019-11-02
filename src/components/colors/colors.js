@@ -7,29 +7,6 @@ class Colors extends Component {
   render() {
     return (
       <div className="row colors">
-        <div className="col s12 m6 l3">
-          {blueGrayListItems}
-        </div>
-
-        <div className="col s12 m6 l3">
-          {grayListItems}
-        </div>
-
-        <div className="col s12 m6 l3">
-          {brownListItems}
-        </div>
-
-        <div className="col s12 m6 l3">
-          {deepOrangeListItems}
-        </div>
-
-        <div className="col s12 m6 l3">
-          {orangeListItems}
-        </div>
-
-        <div className="col s12 m6 l3">
-          {yellowListItems}
-        </div>
 
         <div className="col s12 m6 l3">
           {greenListItems}
@@ -41,6 +18,37 @@ class Colors extends Component {
 
         <div className="col s12 m6 l3">
           {blueListItems}
+        </div>
+
+        <div className="col s12 m6 l3">
+          {darkBlueListItems}
+        </div>
+
+
+
+        <div className="col s12 m6 l3">
+          {yellowListItems}
+        </div>
+
+        <div className="col s12 m6 l3">
+          {orangeListItems}
+        </div>
+
+
+        <div className="col s12 m6 l3">
+          {deepOrangeListItems}
+        </div>
+
+        <div className="col s12 m6 l3">
+          {brownListItems}
+        </div>
+
+        <div className="col s12 m6 l3">
+          {grayListItems}
+        </div>
+
+        <div className="col s12 m6 l3">
+          {blueGrayListItems}
         </div>
 
       </div>
@@ -65,5 +73,6 @@ const yellowListItems = generateListItems(Lists.yellowList, "yellow");
 const greenListItems = generateListItems(Lists.greenList, "green");
 const cyanListItems = generateListItems(Lists.cyanList, "cyan");
 const blueListItems = generateListItems(Lists.blueList, "blue");
+const darkBlueListItems = generateListItems(Lists.darkBlueList, "dark-blue");
 
 export default Colors;
